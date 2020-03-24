@@ -5,4 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag2" />
+
+    <fragment
+        android:id="@+id/fgmntDefault"
+        android:name="com.example.androidfragments.Fragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="637dp" />
+</LinearLayout>
